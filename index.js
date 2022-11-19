@@ -4,7 +4,7 @@
 const main = async () => {
   try {
     const { argv } = require("process");
-    if (!argv[2]) throw Error("Form : ptree path out");
+    if (!argv[2]) throw Error("Form : protree path out");
 
     //generate tree
     const genTree = require("./util/genTree");

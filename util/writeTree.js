@@ -11,7 +11,7 @@ const writeTree = async (tree = "", file) => {
 
   //replace old tree if found
   const regex = new RegExp(
-    /(<!-- ptree -->)$|(<!-- ptree -->\n{1,2})(```[^~,]*```)?\n?/
+    /(<!-- protree -->)$|(<!-- protree -->\n{1,2})(```[^~,]*```)?\n?/
   );
   let result = data.replace(regex, tree);
   if (result.search(tree) === -1) result += "\n" + tree;

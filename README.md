@@ -1,4 +1,4 @@
-<h1 align="center">ptree</h1> 
+<h1 align="center">protree</h1> 
 <p align="center"> a cli tool to automate building the project tree structure<p>
 
 ## Why
@@ -10,20 +10,20 @@
 ## Install
 
 ```
-npm i ptree
+npm i protree
 ```
 
 ## Form
 
 ```
-ptree path out
+protree path out
 ```
 
 ## Usage
 
 - ### with markdown
 
-  Add `<!-- ptree -->` comment to the .md file in the place you want the tree to be in.
+  Add `<!-- protree -->` comment to the .md file in the place you want the tree to be in.
 
   You will add the `comment` only one time and the tree will be updated in that place in case you update your structure in the future.
 
@@ -42,7 +42,7 @@ You can ignore files you don't want it to be included in the tree structure by c
 
 ## Project Structure
 
-<!-- ptree -->
+<!-- protree -->
 
 ```
 . 
@@ -59,4 +59,4 @@ You can ignore files you don't want it to be included in the tree structure by c
 
 ## License
 
-This project is [MIT](https://github.com/ahmed-sudani/ptree/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/ahmed-sudani/protree/blob/main/LICENSE) licensed.

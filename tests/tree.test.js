@@ -24,7 +24,7 @@ const dummyTreeWithIgnore = `.
 └── c3
 `;
 
-const markdownDummyTree = `<!-- ptree -->
+const markdownDummyTree = `<!-- protree -->
 
 \`\`\`
 . 
