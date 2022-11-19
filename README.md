@@ -59,4 +59,4 @@ You can ignore files you don't want it to be included in the tree structure by c
 
 ## License
 
-This project is [MIT](https://github.com/ahmed-sudani/protree/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/ahmed-sudani/protree/blob/master/LICENSE) licensed.
