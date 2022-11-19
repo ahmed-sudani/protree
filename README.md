@@ -38,7 +38,7 @@ ptree path out
 
 ## Ignore Files
 
-You can ignore files you don't want it to be included in the tree structure by creating a `.ptreeignore` file and add all the ignored files in it.
+You can ignore files you don't want it to be included in the tree structure by creating a `.ptignore` file and add all the ignored files in it.
 
 ## Project Structure
 
@@ -46,7 +46,7 @@ You can ignore files you don't want it to be included in the tree structure by c
 
 ```
 . 
-├── .ptreeignore
+├── .ptignore
 ├── LICENSE
 ├── README.md
 ├── index.js

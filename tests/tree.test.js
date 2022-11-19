@@ -44,7 +44,7 @@ it("should generate a valid tree", async () => {
 });
 
 it("should generate a valid tree with ignored files", async () => {
-  const ignorePath = ".ptreeignore";
+  const ignorePath = ".ptignore";
   const oldIgnore = await fs.promises.readFile(ignorePath, {
     encoding: "utf8",
   });

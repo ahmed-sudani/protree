@@ -3,14 +3,14 @@ const { resolve, join } = require("path");
 
 //load ignore file
 const loadIgnoreFile = async () => {
-  const path = ".ptreeignore";
+  const path = ".ptignore";
   const dfReg = "(.git$)|(node_modules$)";
 
-  //check if .ptreeignore exits
-  const ptreeIgnoreExits = fs.existsSync(path);
-  if (!ptreeIgnoreExits) return new RegExp(dfReg);
+  //check if .ptignore exits
+  const ptIgnoreExits = fs.existsSync(path);
+  if (!ptIgnoreExits) return new RegExp(dfReg);
 
-  //load .ptreeignore
+  //load .ptignore
   let loadedFile = await fs.promises.readFile(path, { encoding: "utf8" });
 
   // add .git and node_modules to loaded file
@@ -19,7 +19,7 @@ const loadIgnoreFile = async () => {
   //change all * to .*
   loadedFile = loadedFile.replace(/\*/g, ".*");
 
-  //change .ptreeignore to array
+  //change .ptignore to array
   loadedFile = loadedFile.split("\n");
 
   //resolve all files
