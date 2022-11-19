@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahmed-sudani/ptree.git"
+    "url": "git+https://github.com/ahmed-sudani/protree.git"
   },
   "author": "ahmed-sudani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ahmed-sudani/ptree/issues"
+    "url": "https://github.com/ahmed-sudani/protree/issues"
   },
-  "homepage": "https://github.com/ahmed-sudani/ptree#readme"
+  "homepage": "https://github.com/ahmed-sudani/protree#readme"
 }
